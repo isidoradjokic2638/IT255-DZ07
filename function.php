@@ -22,5 +22,4 @@ header("Content-type: application/json");
 $test_array = array ('rezultat' => funkcija($broj1, $broj2));
 echo json_encode($test_array);
 
-
 ?>
