@@ -1,14 +1,7 @@
 <?php
 
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-	$broj1 = $_POST['broj1'];
-	$broj2 = $_POST['broj2j'];
-} else if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-	$broj1 = $_GET['broj1'];
-	$broj2 = $_GET['broj2'];
-}
-
+$broj1 = $_GET['broj1'];
+$broj2 = $_GET['broj2'];
 
 function funkcija($a, $b) {
      $rezultat = 0;
